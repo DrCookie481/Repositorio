@@ -17,4 +17,6 @@ git commit -m "Titulo do commit(Primeiro commit)" Esse comando commita as altera
 
 git remote add origin https://github.com/DrCookie481/Repositorio.git esse comando liga o repositorio git com o github
 
-git add. manda tudo para a area de staadding
+git add . manda tudo para a area de staadding
+
+git checkout -b "Nova_Branch" Esse comando cria uma nova branch e entre nessa branch criada
