@@ -15,8 +15,14 @@ git status    mostra uma lista de mudanças feitas que ainda não foram comitada
 
 git commit -m "Titulo do commit(Primeiro commit)" Esse comando commita as alteraçoes feitas
 
-git remote add origin https://github.com/DrCookie481/Repositorio.git esse comando liga o repositorio git com o github
+git remote add origin https://github.com/DrCookie481/Repositorio.git               esse comando liga o repositorio git com o github
 
-git add . manda tudo para a area de staadding
+git add .                     manda tudo para a area de staadding
 
-git checkout -b "Nova_Branch" Esse comando cria uma nova branch e entre nessa branch criada
+git checkout -b "Nova_Branch"                Esse comando cria uma nova branch e entre nessa branch criada
+
+git commit -m "Nova_Branch"                esse texto pode ser qualquer descrição basica do que foi feito
+
+git push origin nome_branch          envia para o git as alteraçoes da branch
+
+git checkout main                    volta pra a branch main 
